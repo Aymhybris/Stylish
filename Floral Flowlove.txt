@@ -1,0 +1,44 @@
+/*HomePage-Background*/
+body[class ~= "hp"]{
+    background-attachment: fixed !important;
+    background-image:url(http://i.imgur.com/BJOttFE.jpg)!important;
+    background-size:cover!important;
+    background-repeat:no-repeat!important;
+}
+
+/*HideGoogleLogo*/
+div[id="hplogo"]{
+    background:url(http://i.imgur.com/W2I6ypr.png) no-repeat!important;
+        background-size:525px 700px!important;
+    height:700px!important;
+    width:525px!important;
+    margin-top: -200px;
+}
+div[id="hplogo"] div{
+    display:none!important
+}
+
+/*Serch-Backcolor*/
+div[class="sbibod "]{
+    background-color:rgba(159, 244, 251, 0.5)!important
+}
+div[class="gstl_0 sbib_a"]{
+    background-color:rgba(0, 0, 0, 0)!important
+}
+
+/*Serch-Posation*/
+body[class ~= "hp"] div[class="jhp big"]{
+    top:340px!important
+}
+
+/*Button-Background*/
+input[type="submit"]{
+    background-image:none!important;
+    background-color:rgba(159, 244, 251, 0.5)!important
+}
+
+
+#footer > div {
+display:none!important;
+}
+
